@@ -1,11 +1,13 @@
 package com.feodals.feodalsgamebe.entities;
 
 import jakarta.persistence.*;
+import lombok.Data;
 
-import javax.persistence.*;
+
 import java.util.Date;
 
 @Entity
+@Data
 public class Attack {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

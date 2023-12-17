@@ -1,9 +1,11 @@
 package com.feodals.feodalsgamebe.entities;
 
 import jakarta.persistence.*;
+import lombok.Data;
 
 
 @Entity
+@Data
 public class Unit {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

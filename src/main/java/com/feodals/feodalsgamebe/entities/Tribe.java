@@ -1,9 +1,12 @@
 package com.feodals.feodalsgamebe.entities;
 
 import jakarta.persistence.*;
+import lombok.Data;
+
 import java.util.Set;
 
 @Entity
+@Data
 public class Tribe {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
